@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Widget.MaterialComponents.BottomSheet.Modal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_16"
+    app:layout_behavior="@string/bottom_sheet_behavior"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation_no_internet"
+        app:lottie_repeatMode="reverse" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin_4"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/little_network"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_12"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/content_network"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_12" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOkay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="?colorPrimary"
+        android:fontFamily="sans-serif-medium"
+        android:padding="@dimen/padding_8"
+        android:text="@string/button_network"
+        android:textColor="?colorOnPrimary"
+        android:textSize="@dimen/font_12"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

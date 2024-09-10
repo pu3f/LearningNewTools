@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_new_task">New Task</string>
+    <string name="title_home">HOME</string>
+    <string name="desc_checkbox">CheckBox</string>
+    <string name="content_place_holder">Place Holder</string>
+    <string name="btn_time_picker">Select Time</string>
+    <string name="btn_save">Save</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_chart">Chart</string>
+    <string name="menu_setting">Setting</string>
+    <string name="title_new_task">New Task</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_description">Description</string>
+    <string name="little_network">Ups, connection lost</string>
+    <string name="content_network">Please check your internet connection and try again</string>
+    <string name="button_network">Okay, I understand</string>
+</resources>
